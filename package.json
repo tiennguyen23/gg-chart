@@ -1,0 +1,25 @@
+{
+  "name": "chart",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && node server.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "ga-api": "*",
+    "lodash": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-google-charts": "^1.0.2",
+    "superagent": "*",
+    "webpack": "*"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
